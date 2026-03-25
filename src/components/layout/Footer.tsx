@@ -12,8 +12,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 pb-12 border-b border-white/10">
           <div className="md:col-span-4">
             <Link href="/" className="inline-flex items-center gap-3 mb-5 group">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-secondary text-primary shadow-lg">
-                <span className="font-bold text-lg italic">W</span>
+              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-secondary/10 shadow-lg overflow-hidden">
+                <img src="/images/WisdomeCircle Logo.png" alt="Wisdom Circle Logo" className="h-8 w-8 object-contain" />
               </div>
               <span className="font-bold text-xl tracking-tight text-white">The Wisdom Circle</span>
             </Link>
